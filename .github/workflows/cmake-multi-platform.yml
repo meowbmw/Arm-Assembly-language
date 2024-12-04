@@ -5,6 +5,7 @@ on:
     branches: [ "name" ]
   push:
     branches: [ "name" ]
+  workflow_dispatch:
  
 jobs:
   test-on-arm64:
